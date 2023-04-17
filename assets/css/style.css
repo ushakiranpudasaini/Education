@@ -1,0 +1,42 @@
+/* Slider */
+@media only screen and (max-width: 600px) {
+    .splide__arrow {
+        display: none !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .splide {
+        height: 400px !important;
+    }
+
+}
+
+.splide__arrow {
+    background-color: #4a87eb !important;
+    top: 40% !important;
+}
+
+.splide__arrow svg {
+    fill: #fff !important;
+}
+
+.splide__pagination__page {
+    background-color: #ffffff !important;
+}
+
+.splide {
+    height: 800px !important;
+}
+
+.splide:not(.is-overflow) .splide__pagination {
+    display: flex !important;
+}
+
+.clip-path-right-top {
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+}
+/* slider css ends */
